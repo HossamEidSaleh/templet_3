@@ -1,0 +1,1091 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body {
+    perspective: 600px;
+    height: 5000px;
+}
+/* //////////////////////////////////////header-start///////////////////////////////////////// */
+.contain {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+   padding: 50px 0px;
+}
+.contain1{
+display: flex; 
+}
+.contain img {
+    flex: 1;
+ max-width:150px;
+}
+.list1 li {
+    display: inline-block;
+}
+.contain2 {
+    padding-left: 30px;
+    flex: 3;
+}
+.contain2  .linkes {
+    position: relative;
+    padding: 13px 23px;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(104, 43, 43, 0.89);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 1s;
+}
+.contain2  ul li .linkes:before,
+.contain2  ul li .linkes:after{
+content:"";
+position: absolute;
+border-style: solid; 
+left: 0;
+top:0; 
+transition:  0.2s;
+}
+.contain2  ul li .linkes:before{
+    border-width: 0 2px;
+    height: 100%; 
+    width: 96%;
+    transform: scale3d(1,0,1);
+}
+.contain2  ul li .linkes:hover:before{
+ transform: scale3d(1,1,1);
+}
+.contain2  ul li .linkes:after{
+border-width: 2px 0;
+height: 92%; 
+width: 98%;
+transform: scale3d(0,1,1);
+transform-origin: left;
+}
+.contain2  ul li .linkes:hover:after{
+ transform: scale3d(1,1,1);
+ transition-delay: .2s;
+}
+.pli {
+    position: relative;
+}
+.contain3 {
+    position: absolute;
+    width: 450px;
+    border: 2px solid rgba(110, 44, 44, 0.863);
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 5px;
+    transform: scale(0);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden
+}
+.pli:hover .contain3{
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+}
+.contain3 ul li a {
+    text-decoration: none;
+    color: rgba(105, 43, 43, 0.897);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contain3 ul{
+    display:table-cell;
+    text-align: left;
+}
+.contain3 ul .li50 {
+    display: block;
+    border-bottom: 1px dotted  brown ;
+    margin-bottom: 10px;
+}
+.contain3 ul li {
+    line-height: 1.7;
+    font-size: 16px;
+ }
+/* /////////////////////////////////// */
+.contain44 {
+    position: absolute;
+    margin-left: 83%;
+}
+.contain44 ul li  {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.contain1 .contain44 ul li  {
+    padding: 10px ;
+    font-weight: bold;
+}
+.contain1 .contain44 ul .li100 i {
+ position: relative;
+ margin-right: 11px;
+}
+.contain1 .contain44 ul .li100 i::after{
+    position: absolute;
+    content: "0";
+    background-color: var(--maincolor);
+    color: #fff;
+    background-color: rgba(102, 38, 38, 0.829);
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 13px;
+    bottom: -4px;
+}
+/* ///////////////////////////header-end//////////////////////////////////// */
+
+/* //////////////////////////////section-photo-start////////////////////////////// */
+.main img {
+    width: 90%;
+    margin-left: 5%;
+}
+/* /////////////////////section-photo-end//////////////////////////// */
+
+/* /////////////////////////........section-1......////////////////////////////// */
+
+.div55 {
+    margin-top: 40px;
+}
+.por {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.line1 {
+    display: block;
+    width: 120px;
+    height: 2px;
+    background-color: maroon;
+    margin: auto;
+    margin-top: 10px;
+}
+.div55:hover  .line1 {
+    transform: scaleX(1.5);
+    transition: 2s;
+}
+.div100 {
+overflow: auto;
+margin-left: 70px;
+margin-top: 20px;
+}
+.div112 {
+    width: 250px;
+    height: 350px;
+    float: left;
+    margin-left: 30px;
+}
+.p121 {
+    margin-top: 20px;
+    color: gray;
+    font-size: 18px;
+}
+.rw22 {
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    display: inline;
+}
+.div112  i {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+  text-align: center;
+    background-color: maroon;
+    color: white;
+    font-size:30px;
+   visibility: hidden;
+}
+.div112:hover i {
+    visibility: visible;
+}
+/* //////////////////.........section-1-end...........//////////////////////// */
+
+/* //////////////////////////////----------section-2------------////////////////////////////// */
+.parent1{
+    width: 100%;
+    height: 350px;
+  
+}
+.rtg {
+    width: 550px;
+    height: 300px;
+    margin-left: 100px;
+    position: relative;
+    background-color: rgb(245, 242, 236);
+    float: left;
+}
+.kl {
+    display: inline;
+    padding-left: 50px;
+   padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rtg2 .fas{
+    position: absolute;
+    font-size: 50px;
+    color: rgb(95, 23, 23);
+}
+.p99{
+    padding-left: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 7px;
+}
+.rtg2 {
+    position: absolute;
+    margin:10px 0px 0px  30px;
+ 
+}
+.p88 {
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+.btt1 {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(179, 95, 95);
+    display: block;
+     float: left;
+   
+ 
+}
+.btt2 {
+    width: 50px;
+    height: 2px;
+    background-color:  rgb(179, 95, 95);
+    display: block;
+    margin: 0px 13px;
+  float: left;
+}
+.btt3 {
+    width: 50px;
+    height: 2px;
+    background-color:  rgb(179, 95, 95);
+    display: block;
+    float: left;
+}
+.rtg3 {
+    margin-top: 15px;
+margin-left: 330px;
+}
+/* ///////////////////////,,,,,,,,,,section-2-end,,,,,,,,,,//////////////////// */
+
+/* ////////////////////////////section-3////////////////// */
+.para1888{
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+   float: left;
+   position: relative;
+   background-image: url(../images/cms-banner-1.jpg);
+   background-size: cover;
+   transition: .5s;
+}
+.para1888:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.son118 {
+    position: absolute;
+}
+.p988 {
+    color: rgba(97, 23, 23, 0.733);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.hl {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;  
+}
+/* //////////////////////// */
+.para1999{
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+   float: left;
+   position: relative;
+   background-image: url(../images/cms-banner-2.jpg);
+   background-size: cover;
+   transition: .5s;
+}
+.para1999:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.son218 {
+    position: absolute;
+}
+.p899 {
+    color: rgba(97, 23, 23, 0.733);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.he {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+    margin-left: 15px;  
+}
+/* //////////////........section-3-end.........////////////// */
+
+/* //////////////////////////section-4//////////////////// */
+.big {
+    display: flex;
+    margin-bottom: 50px;
+  margin-left: 50px;
+}
+.big1 {
+    text-align: center;
+    margin: 0px  20px;
+    border-right: 1px solid brown ;
+}
+.big3 {
+    
+    margin-right: 4px;
+}
+.big3 h3 {
+  font-size: 19px;
+}
+.big3 span {
+    color: gray;
+    font-size: 18px;
+}
+.big2 {
+    background-image: url(../images/service-icon.png);
+    height: 50px;
+    background-repeat: no-repeat; 
+    background-position: center 5px;
+    transition: all .5s;
+    /* border-right: 1px solid brown; */
+}
+.big1:hover .big2 {
+    background-position: center -90px;
+} 
+/* //////////////////////////// */
+
+.big5 {
+    background-image: url(../images/service-icon.png);
+    height: 50px;
+    background-repeat: no-repeat; 
+    background-position: center -180px;
+transition: all .5s;
+}
+.big1:hover .big5 {
+    background-position: center -273px;
+}
+/* ///////////// */
+.big7 {
+    background-image: url(../images/service-icon.png);
+    height: 50px;
+    background-repeat: no-repeat; 
+    background-position: center -370px;
+transition: all .5s;
+}
+.big1:hover .big7 {
+    background-position: center -460px;
+}
+/* ////////////////// */
+.big9{
+    background-image: url(../images/service-icon.png);
+    height: 50px;
+    background-repeat: no-repeat; 
+    background-position: center -550px;
+    transition: all .5s;
+}
+.big1:hover .big9 {
+    background-position: center -640px;
+}
+/* ///////////////////// */
+.big11 {
+    background-image: url(../images/service-icon.png);
+    height: 50px;
+    background-repeat: no-repeat; 
+    background-position: center -730px;
+    transition: all .5s;
+}
+.hr {
+    width: 80%;
+    height: 2px;
+    background-color: brown;
+    margin: auto;
+}
+.big980 {
+    text-align: center;
+    margin: 0px 20px;
+}
+.big980:hover .big11 {
+    background-position: center -830px;
+}
+/* //////////////////------------------section-4-end..............///////////////////////// */
+
+/* /////////////////////.......footer......////////////// */
+.div00 {
+    margin-top: 70px;
+}
+.fea{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.line {
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color:rgba(110, 38, 38, 0.795);
+    margin: 10px auto;
+}
+.div011:hover  .line {
+    transform: scaleX(1.5);
+    transition: 1s;
+}
+.div178 {
+  margin-left: 30%;
+  margin-top: 25px;
+  
+}
+.p1 , .p2 ,.p3 ,.p4 {
+    display: inline;
+    padding:0px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* /////////////////////////////////////////////////////// */
+/* 
+.parent21 {
+    position: relative;
+    transform-style: preserve-3d;
+    width: 25%;
+    height: 400px;
+    margin-left: 80px;
+    transition: .5s;
+   margin-top: 50px;
+    float: left; 
+}
+.parent21:hover {
+    transform: rotateY(180deg);
+
+}
+.son11 , .son21 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.son11 {
+    z-index: 2;
+  background-image: url(../images/chair1.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.son21 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair2.jpg);
+    background-size: cover;
+}
+.son41 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.son41 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.son51 {
+
+    position: absolute;
+   margin-left: 85px;
+   margin-top: 100px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.son61  i {
+    color: yellow;
+}
+
+/* /////////////////////////////////////// */
+/* .child10 , .child20 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.child10 {
+    z-index: 2;
+  background-image: url(../images/chair3.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.child20 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair4.jpg);
+    background-size: cover;
+}
+.child40 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.child40 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.child50 {
+     margin-left: 37.5%;
+     margin-top: 455px;
+    position: absolute;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child60  .fas {
+    color: yellow;
+} */
+/* ////////////////////////////////////////////// */
+/* .child110 , .child210 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.child110 {
+    z-index: 2;
+  background-image: url(../images/chair5.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.child210 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair6.jpg);
+    background-size: cover;
+}
+.child410 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.child410 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.child510 {
+
+    position: absolute;
+   margin-left: 69%;
+   margin-top: 455px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child610  .fas {
+    color: yellow;
+} */
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* .child101 , .child201 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 65px;
+}
+.child101 {
+    z-index: 2;
+  background-image: url(../images/chair1.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.child201 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair2.jpg);
+    background-size: cover;
+}
+.child401 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.child401 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.child501 {
+
+    position: absolute;
+   margin-left: 85px;
+   margin-top: 980px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child601  .fas {
+    color: yellow;
+} */
+/* /////////////////////////////////////////// */
+/* .child1000 , .child2000 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 65px;
+}
+.child1000 {
+    z-index: 2;
+  background-image: url(../images/chair3.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.child2000 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair4.jpg);
+    background-size: cover;
+}
+.child4000 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.child4000 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.child5000 {
+     margin-left: 37.5%;
+     margin-top: 980px;
+    position: absolute;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child6000  i {
+    color: yellow;
+} */
+/* /////////////////////////////////////////////////////////// */
+/* .child11010 , .child21010 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 65px;
+}
+.child11010 {
+    z-index: 2;
+  background-image: url(../images/chair5.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.child21010 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair6.jpg);
+    background-size: cover;
+}
+.child41010 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.child41010 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.child51010 {
+
+    position: absolute;
+   margin-left: 69%;
+   margin-top: 980px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.child61010  i {
+    color: yellow;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parent21 {
+    position: relative;
+    transform-style: preserve-3d;
+    width: 25%;
+    height: 400px;
+    margin-left: 80px;
+    transition: .5s;
+  margin-top: 50px;
+  float: left;
+}
+
+.parent21:hover {
+    transform: rotateY(180deg);
+
+}
+.son1 , .son2 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.son1 {
+    z-index: 2;
+  background-image: url(../images/chair1.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.son2 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair2.jpg);
+    background-size: cover;
+}
+.son4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.son4 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.son5 {
+
+    position: absolute;
+   margin-left: 80px;
+   margin-top: 455px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.son6  .fas {
+    color: yellow;
+}
+
+/* /////////////////////////////////////// */
+.son10 , .son20 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.son10 {
+    z-index: 2;
+  background-image: url(../images/chair3.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.son20 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair4.jpg);
+    background-size: cover;
+}
+.son40 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.son40 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.son50 {
+     margin-left: 37.5%;
+     margin-top: 455px;
+    position: absolute;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.son60  .fas {
+    color: yellow;
+}
+/* ////////////////////////////////////////////// */
+.son110 , .son210 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
+.son110 {
+    z-index: 2;
+  background-image: url(../images/chair5.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.son210 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair6.jpg);
+    background-size: cover;
+}
+.son410 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.son410 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.son510 {
+
+    position: absolute;
+   margin-left: 69%;
+   margin-top: 455px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.son610  .fas {
+    color: yellow;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+.son101 , .son201 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 65px;
+}
+.son101 {
+    z-index: 2;
+  background-image: url(../images/chair1.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.son201 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair2.jpg);
+    background-size: cover;
+}
+.son401 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.son401 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.son501 {
+
+    position: absolute;
+   margin-left: 80px;
+   margin-top: 980px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.son601  .fas {
+    color: yellow;
+}
+/* /////////////////////////////////////////// */
+.son1000 , .son2000 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 65px;
+}
+.son1000 {
+    z-index: 2;
+  background-image: url(../images/chair3.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.son2000 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair4.jpg);
+    background-size: cover;
+}
+.son4000 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.son4000 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.son5000 {
+     margin-left: 37.5%;
+     margin-top: 980px;
+    position: absolute;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.son6000  .fas {
+    color: yellow;
+}
+/* /////////////////////////////////////////////////////////// */
+.son11010 , .son21010 {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 65px;
+}
+.son11010 {
+    z-index: 2;
+  background-image: url(../images/chair5.jpg);
+  background-size: cover;
+   backface-visibility: hidden;
+}
+.son21010 {
+   backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-image: url(../images/chair6.jpg);
+    background-size: cover;
+}
+.son41010 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.son41010 i {
+    
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(92, 25, 25, 0.774);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+ 
+  
+}
+.son51010 {
+
+    position: absolute;
+   margin-left: 69%;
+   margin-top: 980px;
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.son61010  .fas {
+    color: yellow;
+}
